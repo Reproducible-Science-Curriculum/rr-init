@@ -33,7 +33,19 @@ How to use
 * Delete the LICENSE.md file, unless it will also apply to your project. (However, it probbaly will not to all of it.)
 * Go forth and experiment, keeping files in their appropriate places.
 
-To the extent possible under law, the author(s) of this template have dedicated all copyright and related and neighboring rights to it to the public domain worldwide under the [CC0 Public Domain Dedication]. The template and all other content in the [rr-init repository] is distributed without any warranty. .
+To the extent possible under law, the author(s) of this template have dedicated all copyright and related and neighboring rights to it to the public domain worldwide under the [CC0 Public Domain Dedication]. The template and all other content in the [rr-init repository] is distributed without any warranty.
+
+Key concepts and goals
+----------------------
+
+See [Noble 2009] for a full description of and argument for the principle template structure. Some concepts and goals that guided this work:
+* There is a folder for the raw data, which do not get altered, or intermixed with data that is the result of manual or programmatic manipulation. I.e., derived data is kept separate from raw data. 
+* Code is kept separate from data.
+* Manuscript production output is kept separate from everything else.
+* There is a scratch directory for experimentation. Everything in the scratch directory can be deleted at any time without negative impact. 
+* There should be a `README` in evey directory, describing the purpose of the directory and its contents.
+* There is a top-level `Makefile` or [Rmarkdown] file that documents the computational study in executable form. Those files may call out to other `Makefile`'s or `.Rmd` files in subdirectories.
+* The template structure should have no special software or skill prerequisites to install. Specifically, deploying the template structure should not require installing git, or using the command line.
 
 Acknowledgements
 ----------------
@@ -43,5 +55,6 @@ The initial file and directory structure of this project was developed by a grou
 [rr-init repository]: https://github.com/Reproducible-Science-Curriculum/rr-init
 [latest release]: https://github.com/Reproducible-Science-Curriculum/rr-init/releases/latest
 [NESCent]: http://nescent.org
+[Rmarkdown]: http://rmarkdown.rstudio.com/
 [Noble 2009]: http://dx.doi.org/10.1371/journal.pcbi.1000424
 [CC0 Public Domain Dedication]: http://creativecommons.org/publicdomain/zero/1.0/
