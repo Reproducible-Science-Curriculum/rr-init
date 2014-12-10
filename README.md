@@ -21,7 +21,8 @@ Overview
     |
     |- scratch/
     |- README
-    |- study.md
+    |- study.Rmd
+    |- Makefile
     |- study.Rproj
 
 How to use
