@@ -33,13 +33,14 @@ How to use
 * Delete the LICENSE.md file, unless it will also apply to your project. (However, it probbaly will not to all of it.)
 * Go forth and experiment, keeping files in their appropriate places.
 
-To the extent possible under law, the author(s) of this template have dedicated all copyright and related and neighboring rights to it to the public domain worldwide under the [CC0 Public Domain Dedication]. The template and all other content in the rr-init repository is distributed without any warranty. .
+To the extent possible under law, the author(s) of this template have dedicated all copyright and related and neighboring rights to it to the public domain worldwide under the [CC0 Public Domain Dedication]. The template and all other content in the [rr-init repository] is distributed without any warranty. .
 
 Acknowledgements
 ----------------
 
 The initial file and directory structure of this project was developed by a group of participants in the Reproducible Science Curriculum Workshop, held at [NESCent] in December 2014. The structure heavily follows the one proposed by [Noble 2009], with a few but small modifications.
 
+[rr-init repository]: https://github.com/Reproducible-Science-Curriculum/rr-init
 [latest release]: https://github.com/Reproducible-Science-Curriculum/rr-init/releases/latest
 [NESCent]: http://nescent.org
 [Noble 2009]: http://dx.doi.org/10.1371/journal.pcbi.1000424
