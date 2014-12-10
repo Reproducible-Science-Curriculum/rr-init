@@ -38,7 +38,7 @@ To the extent possible under law, the author(s) of this template have dedicated 
 Acknowledgements
 ----------------
 
-The initial file and directory structure of this project was developed by a group of participants in the Reproducible Science Curriculum Workshop, held at [NESCent] in December 2014. The structure heavily follows the one proposed by [Noble 2009], with a few but small modifications.
+The initial file and directory structure of this project was developed by a group of participants in the Reproducible Science Curriculum Workshop, held at [NESCent] in December 2014. The structure is based on, and heavily follows the one proposed by [Noble 2009], with a few but small modifications.
 
 [rr-init repository]: https://github.com/Reproducible-Science-Curriculum/rr-init
 [latest release]: https://github.com/Reproducible-Science-Curriculum/rr-init/releases/latest
