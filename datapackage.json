@@ -1,3 +1,4 @@
+/* see http://dataprotocols.org/data-packages/ for full specification of this format */
 {
     "title": "Data package for study NAME OF STUDY",
     "name": "name-of-study",
