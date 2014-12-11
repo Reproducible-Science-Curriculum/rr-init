@@ -1,0 +1,29 @@
+{
+    "title": "Data package for study NAME OF STUDY",
+    "name": "name-of-study",
+    "license": "CC0-1.0",
+    "contributors": [
+        {
+            "name": "Firstname Lastname",
+            "email": "youremail@example.com"
+        }
+    ],
+    "resources": [
+        {
+            "path": "data/raw/rawDataFile1.csv"
+            "name": "Name of data file 1",
+            "format": "csv"
+        }
+        {
+            "path": "data/clean/cleanDataFile1.csv"
+            "name": "Clean version of Name of data file 1",
+            "format": "csv",
+            "sources": [
+                {
+                    "path": "data/raw/rawDataFile1.csv"
+                }
+            ],
+        }
+    ],
+    "datapackage_version": "1.0-beta.10"
+}

@@ -24,6 +24,7 @@ Overview
     |- study.Rmd       # executable Rmarkdown for this study, if applicable
     |- Makefile        # executable Makefile for this study, if applicable
     |- study.Rproj     # RStudio project for this study, if applicable
+    |- datapackage.json # metadata for the (input and output) data files 
 
 How to use
 ----------
@@ -40,13 +41,14 @@ Key concepts and goals
 ----------------------
 
 See [Noble 2009] for a full description of and argument for the principle template structure. Some concepts and goals that guided this work:
-* There is a folder for the raw data, which do not get altered, or intermixed with data that is the result of manual or programmatic manipulation. I.e., derived data is kept separate from raw data, and raw data are not duplicated.
-* Code is kept separate from data.
-* Manuscript production output is kept separate from everything else.
-* There is a scratch directory for experimentation. Everything in the scratch directory can be deleted at any time without negative impact. 
-* There should be a `README` in evey directory, describing the purpose of the directory and its contents.
-* There is a top-level `Makefile` or [Rmarkdown] file that documents the computational study in executable form. Those files may call out to other `Makefile`'s or `.Rmd` files in subdirectories.
-* The template structure should have no special software or skill prerequisites to install. Specifically, deploying the template structure should not require installing git, or using the command line.
+* (Good) There is a folder for the raw data, which do not get altered, or intermixed with data that is the result of manual or programmatic manipulation. I.e., derived data is kept separate from raw data, and raw data are not duplicated.
+* (Good) Code is kept separate from data.
+* (Better) Manuscript production output is kept separate from everything else.
+* (Good) There is a scratch directory for experimentation. Everything in the scratch directory can be deleted at any time without negative impact. 
+* (Better) There should be a `README` in evey directory, describing the purpose of the directory and its contents.
+* (Best) There is a top-level `Makefile` or [Rmarkdown] file that documents the computational study in executable form. Those files may call out to other `Makefile`'s or `.Rmd` files in subdirectories.
+* (Best) There is a formal metadata descriptor at the root of the package that describes all the important input and output data files.
+* (Meta) The template structure should have no special software or skill prerequisites to install. Specifically, deploying the template structure should not require installing git, or using the command line.
 
 Acknowledgements
 ----------------
