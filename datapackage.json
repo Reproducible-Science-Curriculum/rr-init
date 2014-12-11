@@ -10,12 +10,12 @@
     ],
     "resources": [
         {
-            "path": "data/raw/rawDataFile1.csv"
+            "path": "data/raw/rawDataFile1.csv",
             "name": "Name of data file 1",
             "format": "csv"
         }
         {
-            "path": "data/clean/cleanDataFile1.csv"
+            "path": "data/clean/cleanDataFile1.csv",
             "name": "Clean version of Name of data file 1",
             "format": "csv",
             "sources": [
