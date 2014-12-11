@@ -40,7 +40,7 @@ Key concepts and goals
 ----------------------
 
 See [Noble 2009] for a full description of and argument for the principle template structure. Some concepts and goals that guided this work:
-* There is a folder for the raw data, which do not get altered, or intermixed with data that is the result of manual or programmatic manipulation. I.e., derived data is kept separate from raw data. 
+* There is a folder for the raw data, which do not get altered, or intermixed with data that is the result of manual or programmatic manipulation. I.e., derived data is kept separate from raw data, and raw data are not duplicated.
 * Code is kept separate from data.
 * Manuscript production output is kept separate from everything else.
 * There is a scratch directory for experimentation. Everything in the scratch directory can be deleted at any time without negative impact. 
