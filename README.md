@@ -7,23 +7,23 @@ Overview
 --------
 
     project
-    |- doc/
-    |  +- paper/
+    |- doc/            # documentation for the study
+    |  +- paper/       # manuscript(s), whether generated or not
     |
-    |- data
-    |  |- raw/
-    |  +- clean/
+    |- data            # raw and primary data, which are not changed once created 
+    |  |- raw/         # raw data, will not be altered
+    |  +- clean/       # cleaned data, will not be altered once created
     |
-    |- code/
-    |- results
-    |  |- figures/
-    |  +- pictures/
+    |- code/           # any programmatic code
+    |- results         # all output from workflows and analyses
+    |  |- figures/     # graphs, likely designated for manuscript figures
+    |  +- pictures/    # diagrams, images, and other non-graph graphics
     |
-    |- scratch/
-    |- README
-    |- study.Rmd
-    |- Makefile
-    |- study.Rproj
+    |- scratch/        # temporary files that can be safely deleted or lost
+    |- README          # the top level description of content
+    |- study.Rmd       # executable Rmarkdown for this study, if applicable
+    |- Makefile        # executable Makefile for this study, if applicable
+    |- study.Rproj     # RStudio project for this study, if applicable
 
 How to use
 ----------
