@@ -10,7 +10,7 @@ Overview
     |- doc/            # documentation for the study
     |  +- paper/       # manuscript(s), whether generated or not
     |
-    |- data            # raw and primary data, which are not changed once created 
+    |- data            # raw and primary data, are not changed once created 
     |  |- raw/         # raw data, will not be altered
     |  +- clean/       # cleaned data, will not be altered once created
     |
